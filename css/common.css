@@ -1,0 +1,276 @@
+/*公共样式*/
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+@font-face {
+  font-family: "icomoon";
+  src: url("../icomoon/fonts/icomoon.eot?7kkyc2");
+  src: url("../icomoon/fonts/icomoon.eot?7kkyc2#iefix")
+      format("embedded-opentype"),
+    url("../icomoon/fonts/icomoon.ttf?7kkyc2") format("truetype"),
+    url("../icomoon/fonts/icomoon.woff?7kkyc2") format("woff"),
+    url("../icomoon/fonts/icomoon.svg?7kkyc2#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.fr .icomoon {
+  font-family: "icomoon";
+  font-size: 16px;
+  line-height: 26px;
+}
+/*版心*/
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+.style-red {
+  color: #c81623;
+}
+.spacer {
+  width: 1px;
+  height: 12px;
+  background-color: #666;
+  margin: 9px 12px 0;
+}
+/*顶部快捷导航*/
+.shortcut {
+  height: 31px;
+  background-color: #f1f1f1;
+  line-height: 31px;
+}
+.shortcut li {
+  float: left;
+}
+
+/*header区域*/
+.header {
+  position: relative;
+  height: 105px;
+}
+.logo {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 175px;
+  height: 56px;
+}
+.logo a {
+  display: block;
+  /*overflow: hidden;*/
+  width: 180px;
+  height: 90px;
+  background: url(../img/logo.gif) no-repeat;
+  background-size: 190px 90px;
+
+  /*text-indent: -999px;*/
+  font-size: 0;
+}
+.search {
+  position: absolute;
+  top: 25px;
+  left: 348px;
+}
+.text {
+  float: left;
+  width: 445px;
+  height: 32px;
+  border: 2px solid #b1191a;
+  padding-left: 10px;
+  color: #ccc;
+}
+.btn {
+  float: left;
+  width: 82px;
+  height: 36px;
+  background-color: #b1191a;
+  border: 0;
+  font-size: 16px;
+  color: #fff;
+}
+.hotwrods {
+  position: absolute;
+  top: 65px;
+  left: 348px;
+}
+.hotwrods a {
+  margin: 0 10px;
+}
+.shopcar {
+  position: absolute;
+  top: 25px;
+  right: 64px;
+  width: 138px;
+  height: 34px;
+  border: 1px solid #dfdfdf;
+  background-color: #f7f7f7;
+  line-height: 34px;
+  text-align: center;
+}
+.car {
+  font-family: "icomoon";
+  color: #da5555;
+  margin-right: 5px;
+}
+.arrow {
+  font-family: "icomoon";
+  margin-left: 10px;
+}
+.count {
+  position: absolute;
+  top: -5px;
+  /*应该是左侧对齐 文字才能往右走显示*/
+  left: 100px;
+  background-color: #e60012;
+  height: 14px;
+  padding: 0 3px;
+  line-height: 14px;
+  color: #fff;
+  /*border-radius: 左上角 右上角  右下角  左下角;*/
+  border-radius: 7px 7px 7px 0;
+}
+
+/*nav start*/
+.nav {
+  height: 45px;
+  border-bottom: 2px solid #b1191a;
+}
+.slider {
+  width: 209px;
+  height: 45px;
+  background: #b1191a;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.dd {
+  height: 465px;
+  background: #c81623;
+  width: 209px;
+  margin-top: 2px;
+  /*  display: none; */
+}
+.menu {
+  height: 46px;
+  text-align: center;
+  line-height: 46px;
+  margin-left: 20px;
+}
+.menu_item {
+  height: 31px;
+  line-height: 31px;
+  /* margin-left: 1px; */
+  padding: 0 10px;
+  transition: all 0.5s;
+}
+
+.menu_item:hover {
+  background-color: #fff;
+  padding-left: 20px;
+}
+
+.menu a {
+  color: #333333;
+  margin: 0 25px;
+  font-size: 14px;
+}
+/*鼠标经过li 里面的 a变颜色*/
+.menu_item:hover a {
+  color: #c81623;
+}
+
+.menu_item a {
+  font-size: 14px;
+  color: #fff;
+}
+.menu_item i {
+  float: right;
+  font-family: "icomoon";
+  font-size: 18px;
+  color: #fff;
+}
+
+/*footer开始*/
+.footer {
+  margin-top: 30px;
+  height: 387px;
+  background: #f5f5f5;
+  padding-top: 30px;
+}
+.mod_service {
+  height: 79px;
+  border-bottom: 1px solid #ededed;
+}
+.mod_service li {
+  width: 240px;
+  float: left;
+  height: 79px;
+}
+.mod_service_icon {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-left: 35px;
+  background: url(../img/icons.png) no-repeat;
+}
+.mod_service_zheng {
+  background-position: -252px -3px;
+}
+.mod_service_ji {
+  background-position: -254px -53px;
+}
+.mod_service_wu {
+  background-position: -256px -105px;
+}
+.mod_service_te {
+  background-position: -258px -155px;
+}
+.mod_service_bang {
+  background-position: -256px -207px;
+}
+.mod_service_tit {
+  float: left;
+  margin-left: 5px;
+}
+.mod_service_tit h5 {
+  margin: 5px 0;
+}
+
+.mod_help {
+  height: 189px;
+  border-bottom: 1px solid #ededed;
+}
+.mod_help_item {
+  float: left;
+  width: 150px;
+  padding: 20px 0 0 50px;
+}
+.mod_help_item dt {
+  height: 25px;
+  font-size: 16px;
+}
+.mod_help_item dd {
+  height: 20px;
+  font-size: 12px;
+}
+.mod_help_app dt,
+.mod_help_app p {
+  padding-left: 15px;
+}
+.mod_help_app img {
+  margin: 7px 0;
+}
+.mod_copyright {
+  text-align: center;
+}
+.mod_copyright_links {
+  text-align: center;
+  margin: 20px 0 15px 0;
+}
+.mod_copyright_info {
+  line-height: 20px;
+}

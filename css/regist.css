@@ -1,0 +1,126 @@
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+.w .head {
+  height: 80px;
+  border-bottom: 2px solid #b1191a;
+}
+.w .head img {
+  padding: 20px 0 10px 0;
+}
+.w .registerarea {
+  margin-top: 20px;
+  height: 520px;
+  border: 1px solid #ccc;
+}
+.w .registerarea h3 {
+  height: 40px;
+  background: #ececec;
+  line-height: 40px;
+  padding: 0 10px;
+  font-weight: 400;
+  border-bottom: 1px solid #ccc;
+  font-size: 18px;
+}
+.w .registerarea h3 em {
+  float: right;
+  font-size: 14px;
+}
+.w .registerarea h3 em a {
+  color: #c81623;
+}
+.w .registerarea .reg_form {
+  width: 600px;
+  height: 400px;
+  margin: 45px auto 0;
+}
+.w .registerarea .reg_form li {
+  margin: 10px 0;
+}
+.w .registerarea .reg_form label {
+  display: inline-block;
+  width: 100px;
+  height: 36px;
+  line-height: 36px;
+  text-align: right;
+}
+.w .registerarea .reg_form .inp {
+  width: 238px;
+  height: 34px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+}
+.w .registerarea .reg_form .error {
+  color: #df3033;
+  margin-left: 10px;
+}
+.w .registerarea .reg_form .error .error_icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -2px;
+  width: 20px;
+  height: 20px;
+  background: url(../img/error.png) no-repeat;
+}
+.w .registerarea .reg_form .success {
+  color: #40b83f;
+  margin-left: 10px;
+}
+.w .registerarea .reg_form .success .success_icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -2px;
+  width: 20px;
+  height: 20px;
+  background: url(../img/success.png) no-repeat;
+}
+.w .registerarea .reg_form .safe {
+  margin-left: 254px;
+  color: #b2b2b2;
+}
+.w .registerarea .reg_form .safe em {
+  display: inline-block;
+  padding: 0 12px;
+  margin-left: 10px;
+}
+.w .registerarea .reg_form .safe .ruo {
+  background: #de1111;
+}
+.w .registerarea .reg_form .safe .zhong {
+  background: #40b83f;
+}
+.w .registerarea .reg_form .safe .qiang {
+  background: #f79100;
+}
+.w .registerarea .reg_form .agree {
+  padding: 15px 0 0 100px;
+}
+.w .registerarea .reg_form .agree input {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.w .registerarea .reg_form .agree a {
+  color: #1ba1e6;
+}
+.w .registerarea .reg_form input[type="submit"] {
+  width: 200px;
+  height: 34px;
+  background: #c81623;
+  color: #fff;
+  text-align: center;
+  line-height: 34px;
+  border: none;
+  margin: 30px 0 0 130px;
+}
+.w .footer {
+  height: 120px;
+  text-align: center;
+}
+.w .footer .links {
+  padding-top: 20px;
+  height: 30px;
+}
+.w .footer .copyright {
+  line-height: 20px;
+}
